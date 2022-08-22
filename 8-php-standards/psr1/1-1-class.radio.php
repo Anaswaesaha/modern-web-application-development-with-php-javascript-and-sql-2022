@@ -3,11 +3,11 @@
 /**
  * LangsariSoftware - A Delicious PHP Component
  *
- * @package  LangsariEngine
- * @author   Kholed Langsari <langsaree@gmail.com>
+ * @package LangsariEngine
+ * @author  Kholed Langsari <langsaree@gmail.com>
  */
- 
-class Radio    extends    Product
+
+class Radio extends Product
 {
     public function report()
     {

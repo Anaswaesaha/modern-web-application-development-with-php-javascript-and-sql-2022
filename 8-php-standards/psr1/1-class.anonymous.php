@@ -10,14 +10,14 @@
 class Person
 {
     public $name = "";
-    function getName()
+    public function getName()
     {
         return $this->name;
     }
 }
 
 // return an anonymous implementation of Person
-$anonymous = new class() extends Person {
+$anonymous = new class () extends Person {
     public function getName()
     {
 
@@ -25,5 +25,5 @@ $anonymous = new class() extends Person {
         return "Moana";
     }
 };
-// note: requires closing semicolon, 
+// note: requires closing semicolon,
 // unlike non-anonymous class definitions
